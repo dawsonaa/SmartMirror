@@ -1,0 +1,44 @@
+<body>
+    <link rel="stylesheet" type="text/css" href="wrap.css" />
+  <div class = "homePage" id = "homePage" style="float:left;margin:10px">
+    <h1 id="SmartMirror" class="SmartMirror" style="display: flex;justify-content: space-around;">
+      Smart Mirror
+    </h1>
+    <p>
+      <button onclick="timeClick()">Time</button>
+      <button onclick="weatherClick()">Weather</buttonon>
+      <button onclick="QOTDClick()">Daily Quote</button>
+      <button>Camera</button>
+    </p>
+    <p>
+      <button>Button</button>
+      <button>Button</button>
+      <button>Button</button>
+    </p>
+  </div>
+  
+  <div class = "app" id = "app" style="float:right;margin:10px">
+    <div class = "rTop">
+      <h1 id="tString"></h1>
+    </div>
+
+    <div class="rMiddle" id="rMiddle">
+      <h1 id="mString"></h1>
+    </div>
+    <div class = "rBottom">
+      <h1 id="bString"></h1>
+    </div>
+
+    <div class = "bButtons">
+      <p>
+      <button style = "margin-left:40px;" id="bButton1" onclick="hTime()">Hawaii-Aleutian Standard Time</button>
+      <button id="bButton2" onclick="aTime()">Alaska Standard Time</button>
+      <button id="bButton3" onclick="pTime()">Pacific Standard Time</button>
+      <button id="bButton4" onclick="mTime()">Mountain Standard Time</button>
+      <button id="bButton5" onclick="cTime()">Central Standard Time</button>
+      <button id="bButton6" onclick="eTime()">Eastern Standard Time</button>
+      </p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>

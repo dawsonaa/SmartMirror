@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .app{
+    float:right;
+    width:50%
+  }
+  
+  .rBottom{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .rTop{
+    display: grid;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .rMiddle{
+    display: grid;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #rMiddle h1{
+    font-size:150px;
+  }
+  
+  
+  #homePage button{
+    background-color: white;
+    border: 1px solid gray;
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    font-size: 60px;
+  }
+  
+  .SmartMirror{
+    font-size: 60px;
+  }
